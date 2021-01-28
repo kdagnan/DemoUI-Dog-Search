@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 export default function Sidebar({updateParams, search, breeds}) {
     let [searchVal, setSearch] = useState('')
     return (
-        <div className='card bg-light mt-5'>
+        <div className='card bg-light' style={{marginTop: '75px'}}>
             <div className='card-header'>
                 Filter & Search
             </div>
